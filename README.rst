@@ -4,7 +4,7 @@ modtest
 
 
 .. image:: https://img.shields.io/pypi/v/modtest.svg
-        :target: https://pypi.python.org/pypi/modtest
+        :target: https://test.pypi.org/simple/modtest
 
 .. image:: https://img.shields.io/travis/muffizone/modtest.svg
         :target: https://travis-ci.org/muffizone/modtest
