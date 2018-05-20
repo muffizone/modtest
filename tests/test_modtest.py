@@ -14,9 +14,12 @@ class TestModtest(unittest.TestCase):
 
     def setUp(self):
         """Set up test fixtures, if any."""
+        self.message = "Hello"
 
     def tearDown(self):
         """Tear down test fixtures, if any."""
 
-    def test_000_something(self):
+    def test1(self):
         """Test something."""
+        output = modtest.hello()
+        assert(output == self.message)
