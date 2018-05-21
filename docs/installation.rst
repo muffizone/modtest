@@ -12,7 +12,7 @@ To install modtest, run this command in your terminal:
 
 .. code-block:: console
 
-    $ pip install modtest
+    $ pip install --index-url https://test.pypi.org/project/ modtest
 
 This is the preferred method to install modtest, as it will always install the most recent stable release.
 
